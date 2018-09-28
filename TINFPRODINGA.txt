@@ -1,3 +1,5 @@
+SYSTEM CALLS UNDERSTANDING:
+
 fork: creates a new process by duplicating the calling process
        Arguments: void
 
