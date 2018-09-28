@@ -1,17 +1,17 @@
-fork: creates a new process by duplicating the calling process.
+fork: creates a new process by duplicating the calling process
        Arguments: void
 
 stat: displays file or file system status.
-      returns a struct with information about a filepath given.
+      returns a struct with information about a filepath given
       Arguments: const char* pathname, struct stat *buf
 
 kill:	used to send a signal to another process
         Arguments: pid_t pid, int sig
 
-mmap:	used to map files or devices into memory.
+mmap:	used to map files or devices into memory
         Arguments: void *addr, size_t length, int prot, int flags, int fd, off_t offset
 
-chmod: used to change file mode bits.
+chmod: used to change file mode bits
         Arguments: const char *path, mode_t mode
 
 waitpid: wait for process to change state
